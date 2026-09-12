@@ -1,0 +1,16 @@
+# Clone the repository
+git clone https://github.com/bassisairam1415-lab/TASK-5.git
+cd TASK-5
+
+# Set up Python environment (recommended: Python 3.8+)
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install pandas nltk pyspellchecker textdistance matplotlib jupyter
+
+# Download NLTK data (stopwords, punkt tokenizer)
+python -c "import nltk; nltk.download('stopwords'); nltk.download('punkt')"
+
+# Start Jupyter and create analysis notebook
+jupyter notebook
