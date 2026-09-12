@@ -1,0 +1,7 @@
+ README.md         Project title and description (stub)
+  
+[Ready for implementation]
+  - Jupyter notebooks for analysis & experimentation
+  - Data corpus (to be sourced from Gutenberg/Kaggle)
+  - src/ or notebooks/ for modular code
+  - results/ for metrics, visualizations, confusion matrices
